@@ -14,7 +14,7 @@ namespace RazorPages.Pages.Alumnos
         public void OnGet()
         {
 			mensaje = "Hola a todos los alumnos";
-
+ 
 		}
 	}
 }
