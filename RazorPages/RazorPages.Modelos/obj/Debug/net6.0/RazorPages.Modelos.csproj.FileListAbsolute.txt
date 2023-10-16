@@ -1,0 +1,11 @@
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\bin\Debug\net6.0\RazorPages.Modelos.deps.json
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\bin\Debug\net6.0\RazorPages.Modelos.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\bin\Debug\net6.0\RazorPages.Modelos.pdb
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\obj\Debug\net6.0\RazorPages.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\obj\Debug\net6.0\RazorPages.Modelos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\obj\Debug\net6.0\RazorPages.Modelos.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\obj\Debug\net6.0\RazorPages.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\obj\Debug\net6.0\RazorPages.Modelos.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\obj\Debug\net6.0\refint\RazorPages.Modelos.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\obj\Debug\net6.0\RazorPages.Modelos.pdb
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages.Modelos\obj\Debug\net6.0\ref\RazorPages.Modelos.dll

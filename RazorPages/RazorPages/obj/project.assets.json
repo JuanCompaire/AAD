@@ -216,6 +216,29 @@
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
         }
+      },
+      "RazorPages.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RazorPages.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RazorPages.Modelos.dll": {}
+        }
+      },
+      "RazorPages.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "RazorPages.Modelos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/RazorPages.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RazorPages.Services.dll": {}
+        }
       }
     }
   },
@@ -554,11 +577,23 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "RazorPages.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../RazorPages.Modelos/RazorPages.Modelos.csproj",
+      "msbuildProject": "../RazorPages.Modelos/RazorPages.Modelos.csproj"
+    },
+    "RazorPages.Services/1.0.0": {
+      "type": "project",
+      "path": "../RazorPages.Services/RazorPages.Services.csproj",
+      "msbuildProject": "../RazorPages.Services/RazorPages.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Microsoft.EntityFrameworkCore >= 7.0.11"
+      "Microsoft.EntityFrameworkCore >= 7.0.11",
+      "RazorPages.Modelos >= 1.0.0",
+      "RazorPages.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -593,7 +628,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages.Modelos\\RazorPages.Modelos.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages.Modelos\\RazorPages.Modelos.csproj"
+            },
+            "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages.Services\\RazorPages.Services.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages.Services\\RazorPages.Services.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

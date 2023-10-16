@@ -40,3 +40,7 @@ C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\Micr
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\obj\Debug\net6.0\RazorPages.csproj.AssemblyReference.cache
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\obj\Debug\net6.0\RazorPages.csproj.CopyComplete
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\RazorPages.Modelos.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\RazorPages.Services.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\RazorPages.Modelos.pdb
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\RazorPages.Services.pdb

@@ -13,6 +13,26 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Alberto.jpg",
+      "PackagePath": "staticwebassets\\images\\Alberto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Isma1.jpg",
+      "PackagePath": "staticwebassets\\images\\Isma1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Ismael2.jpg",
+      "PackagePath": "staticwebassets\\images\\Ismael2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Jesus.jpg",
+      "PackagePath": "staticwebassets\\images\\Jesus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\images\\noimage.jpg"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

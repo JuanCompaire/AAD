@@ -7,7 +7,7 @@ using RazorPages.Modelos;
 
 namespace RazorPages.Services
 {
-	internal class AlumnoRepositorio : IAlumnoRepositorio
+	public class AlumnoRepositorio : IAlumnoRepositorio
 	{
 
 		public List<Alumno> listaAlumnos;
@@ -32,7 +32,7 @@ namespace RazorPages.Services
         }
         public IEnumerable<Alumno> GetAllAlumnos()
 		{
-			throw new NotImplementedException();
+			return listaAlumnos;
 		}
 	}
 }
