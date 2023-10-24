@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "peG/VbNkj9TAy5k2NuZooXxOO3w2XLXaAzFpWG8s2Lw=",
+  "Hash": "ynQmWsvyTiM9i24u3U+IQCql6LTong9KzpAVBMaz0Uk=",
   "Source": "RazorPages",
   "BasePath": "_content/RazorPages",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Jesus.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Mikel.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "images/Mikel.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Mikel.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Nacho.jpg",

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Usuario/Desktop/2ºDAMN/AAD/RazorPages/RazorPages/Pages/Alumnos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWx1bW5vc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/2ºDAMN/AAD/RazorPages/RazorPages/Pages/Alumnos/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWx1bW5vc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -38,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/Usuario/Desktop/2ºDAMN/AAD/RazorPages/RazorPages/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/2ºDAMN/AAD/RazorPages/RazorPages/Pages/Shared/AlumnosCurso/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXEFsdW1ub3NDdXJzb1xEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Usuario/Desktop/2ºDAMN/AAD/RazorPages/RazorPages/Pages/Shared/_ValidationScriptsPartial.cshtml]

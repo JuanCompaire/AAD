@@ -44,3 +44,6 @@ C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\Razo
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\RazorPages.Services.dll
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\RazorPages.Modelos.pdb
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\RazorPages.Services.pdb
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\RazorPages\RazorPages\bin\Debug\net6.0\Newtonsoft.Json.dll

@@ -51,6 +51,32 @@ namespace RazorPages.Services
 			return alumno;
 		}
 
+		public Alumno Add(Alumno alumnoNuevo)
+		{
+			alumnoNuevo.Id = listaAlumnos.Max(a => a.Id) + 1;
+			listaAlumnos.Add(alumnoNuevo);
+			return alumnoNuevo;
+		}
+
+		public Alumno Delete(int id)
+		{
+			Alumno alumnoABorrar = listaAlumnos.FirstOrDefault(a => a.Id == id);
+			if( alumnoABorrar != null)
+			{
+				listaAlumnos.Remove(alumnoABorrar);
+			}
+			return alumnoABorrar;
+		}
+		public IEnumerable<CursoCuantos> AlumnosPorCurso()
+		{
+			return listaAlumnos.GroupBy(a => a.CursoId)
+				.Select(g => new CursoCuantos()
+				{
+					Clase = g.Key.Value,
+					NumAlumnos = g.Count()
+				}).ToList();
+		}
+
 		public IEnumerable<Alumno> Busqueda(string elementoABuscar)
 		{
 			if (string.IsNullOrEmpty(elementoABuscar))
@@ -60,5 +86,7 @@ namespace RazorPages.Services
 			return  listaAlumnos.Where(a => a.Nombre.Contains(elementoABuscar)|| a.Email.Contains(elementoABuscar));
 			
 		}
+
+		
 	}
 }
