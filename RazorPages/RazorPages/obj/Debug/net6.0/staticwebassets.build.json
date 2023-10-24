@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "w1kvhZs8ASmhZEWUbys2khxzBBaMGGCClTFGZgOSmEs=",
+  "Hash": "peG/VbNkj9TAy5k2NuZooXxOO3w2XLXaAzFpWG8s2Lw=",
   "Source": "RazorPages",
   "BasePath": "_content/RazorPages",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\images\\Alberto.jpg"
     },
     {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\fondo.webp",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "images/fondo.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fondo.webp"
+    },
+    {
       "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Isma1.jpg",
       "SourceId": "RazorPages",
       "SourceType": "Discovered",
@@ -151,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Jesus.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Nacho.jpg",
+      "SourceId": "RazorPages",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\",
+      "BasePath": "_content/RazorPages",
+      "RelativePath": "images/Nacho.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Nacho.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\noimage.jpg",

@@ -29,6 +29,14 @@
       "PackagePath": "staticwebassets\\images\\Jesus.jpg"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\Nacho.jpg",
+      "PackagePath": "staticwebassets\\images\\Nacho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\fondo.webp",
+      "PackagePath": "staticwebassets\\images\\fondo.webp"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\RazorPages\\RazorPages\\wwwroot\\images\\noimage.jpg",
       "PackagePath": "staticwebassets\\images\\noimage.jpg"
     },

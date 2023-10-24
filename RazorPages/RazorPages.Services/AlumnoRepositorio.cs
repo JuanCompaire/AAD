@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using RazorPages.Modelos;
+using System.Linq;
 
 namespace RazorPages.Services
 {
@@ -33,6 +34,31 @@ namespace RazorPages.Services
         public IEnumerable<Alumno> GetAllAlumnos()
 		{
 			return listaAlumnos;
+		}
+
+		public Alumno GetAlumno(int id)
+		{
+			return listaAlumnos.FirstOrDefault(a => a.Id == id);
+		}
+
+		public Alumno Update(Alumno alumnoActualizado)
+		{
+			Alumno alumno = listaAlumnos.FirstOrDefault(a => a.Id == alumnoActualizado.Id);
+			alumno.Nombre = alumnoActualizado.Nombre;
+			alumno.Email = alumnoActualizado.Email;
+			alumno.CursoId = alumnoActualizado.CursoId;
+			alumno.Foto = alumnoActualizado .Foto;
+			return alumno;
+		}
+
+		public IEnumerable<Alumno> Busqueda(string elementoABuscar)
+		{
+			if (string.IsNullOrEmpty(elementoABuscar))
+			{
+				return listaAlumnos;
+			}
+			return  listaAlumnos.Where(a => a.Nombre.Contains(elementoABuscar)|| a.Email.Contains(elementoABuscar));
+			
 		}
 	}
 }

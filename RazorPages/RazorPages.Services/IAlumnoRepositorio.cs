@@ -5,5 +5,13 @@ namespace RazorPages.Services
 	{
 		IEnumerable<Alumno> GetAllAlumnos();
 
+		Alumno GetAlumno(int id);
+
+		Alumno Update(Alumno alumnoActualizado);
+
+
+		IEnumerable<Alumno> Busqueda(String elementoABuscar);
+
+
 	}
 }
