@@ -18,7 +18,7 @@ namespace Services
 		}
 		public IEnumerable<Equipo> GetEquipos()
 		{
-			return context.Equipos;
+			return context.Equipo;
 		}
 	}	
 	

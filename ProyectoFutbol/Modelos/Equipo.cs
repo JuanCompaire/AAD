@@ -18,9 +18,9 @@ namespace Modelos
 
 		public string nomEstadio { get; set; }
 
-		public int anoFundacion { get; set; }
+		public int? anoFundacion { get; set; }
 
-		public Categoria categoria { get; set; }
+		public string categoria { get; set; }
 
 	}
 }

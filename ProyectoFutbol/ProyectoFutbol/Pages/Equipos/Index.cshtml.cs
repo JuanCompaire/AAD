@@ -7,16 +7,16 @@ namespace ProyectoFutbol.Pages.Equipos
 {
     public class IndexModel : PageModel
     {
-        private readonly IEquiposRepositorio equiporepositorio;
-        public IEnumerable<Equipo> Equipos;
+        private readonly IEquiposRepositorio equiposRepositorio;
+        public IEnumerable<Equipo> equipos { get; set; }
     
-        public IndexModel(IEquiposRepositorio equiporepositorio)
+        public IndexModel(IEquiposRepositorio equiposRepositorio)
         {
-            this.equiporepositorio = equiporepositorio;
+            this.equiposRepositorio = equiposRepositorio;
         }
         public void OnGet()
         {
-
+            equipos = equiposRepositorio.GetEquipos();
 
         }
     }

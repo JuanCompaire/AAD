@@ -1,10 +1,10 @@
 ﻿@page
 @model ProyectoFutbol.Pages.Equipos.IndexModel
 @{
-	
 }
-<div class="text-center">
-	<h1 class="display-4">Equipos</h1>
-
-</div>
-  
+	
+<h3>@Model.equipos.Count()</h3>
+@foreach(var equipo in Model.equipos)
+{
+	<h3>@equipo.nomEquipo</h3>
+}

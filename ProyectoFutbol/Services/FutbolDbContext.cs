@@ -11,7 +11,7 @@ namespace Services
 	public class FutbolDbContext : DbContext
 	{
 
-		public DbSet<Equipo> Equipos { get; set; }
+		public DbSet<Equipo> Equipo { get; set; }
 
 		public FutbolDbContext(DbContextOptions<FutbolDbContext> options) : base(options)
 		{
