@@ -7,5 +7,23 @@
 <h3>@Model.equipos.Count()</h3>
 @foreach(var equipo in Model.equipos)
 {
-	<h3>@equipo.nomEquipo</h3>
+
+	<div class="card m-3 border" style="min-width: 18rem; max-width:30%">
+            <div class="card-header text-center">
+                <h3>Total: @equipo.nomEquipo</h3>
+            </div>
+            <div class="card-body">
+                <p>Id: <strong>@equipo.Id</strong></p>
+                <p>Nombre: <strong>@equipo.nomEquipo</strong></p>
+                <p>Ciudad: <strong>@equipo.ciudad</strong></p>
+                <p>Año de Fundación: <strong>@equipo.anoFundacion</strong></p>
+                <p>Nombre del Estadio: <strong>@equipo.nomEstadio</strong></p>
+                <p>Cátegoria: <strong>@equipo.categoria</strong></p>
+            </div>
+            <div class="card-footer text-center">
+                <a asp-page="/Equipos/Details" asp-route-ID="@equipo.Id" class="btn btn-primary m1">View</a>
+                <a asp-page="/Equipos/Edit" asp-route-ID="@equipo.Id" class="btn btn-primary m1">Edit</a>
+                <a asp-page="/Equipos/Delete" asp-route-ID="@equipo.Id" class="btn btn-danger m-1">Delete</a>
+            </div>
+    </div>
 }

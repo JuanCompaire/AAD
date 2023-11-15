@@ -81,3 +81,6 @@ C:\Users\Usuario\Desktop\2ºDAMN\AAD\ProyectoFutbol\ProyectoFutbol\obj\Debug\net
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\ProyectoFutbol\ProyectoFutbol\obj\Debug\net6.0\ProyectoFutbol.pdb
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\ProyectoFutbol\ProyectoFutbol\obj\Debug\net6.0\ProyectoFutbol.genruntimeconfig.cache
 C:\Users\Usuario\Desktop\2ºDAMN\AAD\ProyectoFutbol\ProyectoFutbol\obj\Debug\net6.0\ref\ProyectoFutbol.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\ProyectoFutbol\ProyectoFutbol\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\ProyectoFutbol\ProyectoFutbol\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\Usuario\Desktop\2ºDAMN\AAD\ProyectoFutbol\ProyectoFutbol\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
