@@ -15,4 +15,6 @@ namespace RazorPages.Services
 		}
         public DbSet<Alumno> Alumnos { get; set; }
     }
+
+	
 }

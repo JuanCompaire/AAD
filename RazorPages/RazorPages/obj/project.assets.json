@@ -2017,6 +2017,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.DataAnnotations": "2.2.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.13",
           "RazorPages.Modelos": "1.0.0"
         },
         "compile": {

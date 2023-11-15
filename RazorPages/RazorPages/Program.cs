@@ -5,14 +5,14 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IAlumnoRepositorio, AlumnoRepositorio>();
+builder.Services.AddTransient<IAlumnoRepositorio, AlumnoRepositorioBD>();
 
 IConfiguration configuration = new ConfigurationBuilder()
 	.AddJsonFile("appsettings.json")
 	.AddEnvironmentVariables()
 	.Build();
 
-builder.Services.AddDbContextPool<AlumnoDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("ColegioDBConnection"));
+builder.Services.AddDbContextPool<AlumnoDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("ColegioDBConnection")));
 
 
 var app = builder.Build();
