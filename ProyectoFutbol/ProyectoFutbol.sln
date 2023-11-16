@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoFutbol", "ProyectoFutbol\ProyectoFutbol.csproj", "{2C639794-9D2D-4BF9-9CE5-73B17C6176E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProyectoFutbol", "ProyectoFutbol\ProyectoFutbol.csproj", "{2C639794-9D2D-4BF9-9CE5-73B17C6176E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Modelos", "Modelos\Modelos.csproj", "{2B2DB056-E084-4F18-9DF9-D784A6D23324}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelos", "Modelos\Modelos.csproj", "{2B2DB056-E084-4F18-9DF9-D784A6D23324}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{AEEA0528-B86E-47BE-AB34-F4C5FF21466C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{AEEA0528-B86E-47BE-AB34-F4C5FF21466C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -6,6 +6,7 @@ namespace Services
 	{
 
 		IEnumerable<Equipo> GetEquipos();
+		Equipo GetEquipoById(int id);
 
 	}
 }

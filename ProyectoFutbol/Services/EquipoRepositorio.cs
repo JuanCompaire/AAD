@@ -21,7 +21,15 @@ namespace Services
 		{
 			this.context = context;
 		}
-		public IEnumerable<Equipo> GetEquipos()
+
+        public Equipo GetEquipoById(int id)
+        {
+            SqlParameter parameter = new SqlParameter("@Id", id);
+
+            return context.Equipo.Find(id);
+        }
+
+        public IEnumerable<Equipo> GetEquipos()
 		{
 			return context.Equipo.FromSqlRaw<Equipo>("SELECT * FROM Equipo").ToList();
 		}

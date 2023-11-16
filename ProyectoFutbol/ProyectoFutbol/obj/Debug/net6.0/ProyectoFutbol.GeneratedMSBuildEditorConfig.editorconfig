@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Usuario\Desktop\2ºDAMN\AAD\ProyectoFutbol\ProyectoFutbol
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Usuario/Desktop/2ºDAMN/AAD/ProyectoFutbol/ProyectoFutbol/Pages/Equipos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/2ºDAMN/AAD/ProyectoFutbol/ProyectoFutbol/Pages/Equipos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Usuario/Desktop/2ºDAMN/AAD/ProyectoFutbol/ProyectoFutbol/Pages/Equipos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Usuario/Desktop/2ºDAMN/AAD/ProyectoFutbol/ProyectoFutbol/Pages/Equipos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,21 @@
+﻿@page
+@model ProyectoFutbol.Pages.Equipos.DetailsModel
+@{
+    var photo = "~/images/" + (@Model.equipo.foto ?? "noimage.jpg");
+
+}
+
+<div class="card m-3" align="center" style="min-width: 12rem; max-width:80%">
+    <div class="card-header">
+        <h3>@Model.equipo.nomEquipo</h3>
+    </div>
+    <img class="card-img-top" width="250px" asp-append-version="true" src="@photo">
+    <div class="card-footer text-center">
+        <h3>Id: @Model.equipo.Id</h3>
+        <h3>Ciudad: @Model.equipo.ciudad</h3>
+        <h3>Estadio: @Model.equipo.nomEstadio</h3>
+        <h3>Fundacion: @Model.equipo.anoFundacion</h3>
+        <h3>Categoria: @Model.equipo.categoria</h3>
+    </div>
+
+</div>

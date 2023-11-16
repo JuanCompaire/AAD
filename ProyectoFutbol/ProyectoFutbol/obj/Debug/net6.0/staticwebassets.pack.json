@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\images\\huesca.jpg",
+      "PackagePath": "staticwebassets\\images\\huesca.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\images\\noimage.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\images\\zaragoza.jpg",
+      "PackagePath": "staticwebassets\\images\\zaragoza.jpg"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
