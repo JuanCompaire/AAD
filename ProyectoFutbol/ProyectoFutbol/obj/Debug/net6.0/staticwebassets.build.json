@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fdsDs8PfRbRf/cTbDEEwGflKsYJDpBS5YtL8AjZWEGw=",
+  "Hash": "Ln90PpPrNwidA62aerRfgpz3bB8Tba1NylWzqlM4dtk=",
   "Source": "ProyectoFutbol",
   "BasePath": "_content/ProyectoFutbol",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\images\\fondo.webp",
+      "SourceId": "ProyectoFutbol",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\",
+      "BasePath": "_content/ProyectoFutbol",
+      "RelativePath": "images/fondo.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\fondo.webp"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\images\\huesca.jpg",

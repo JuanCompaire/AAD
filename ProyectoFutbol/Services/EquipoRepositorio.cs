@@ -33,6 +33,39 @@ namespace Services
 		{
 			return context.Equipo.FromSqlRaw<Equipo>("SELECT * FROM Equipo").ToList();
 		}
+
+		public void Add(Equipo nuevoEquipo)
+		{
+            context.Database.ExecuteSqlRaw("insertarEquipo {0}, {1}, {2}, {3}, {4}, {5}",
+				nuevoEquipo.nomEquipo,
+				nuevoEquipo.ciudad,
+				nuevoEquipo.nomEstadio,
+				nuevoEquipo.anoFundacion,
+				nuevoEquipo.foto,
+				nuevoEquipo.categoria);
+
+			return;
+        }
+
+		public void Update(Equipo equipoActualizado)
+		{
+            var equipo = context.Equipo.Attach(equipoActualizado);
+            equipo.State = EntityState.Modified;
+            context.SaveChanges();
+        }
+
+		public Equipo Delete(int id)
+		{
+            Equipo equipoDelete = context.Equipo.Find(id);
+            if (equipoDelete != null)
+			{
+                context.Equipo.Remove(equipoDelete);
+                context.SaveChanges();
+            }
+            return equipoDelete;
+        }   
+
+
 	}	
 	
 }

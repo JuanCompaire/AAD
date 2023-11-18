@@ -1,7 +1,87 @@
 ﻿@page
+@using Modelos;
 @model ProyectoFutbol.Pages.Equipos.EditModel
 @{
+	var titulo = @Model.equipo.nomEquipo;
+    var photo = "~/images/" + (@Model.equipo.foto ?? "noimage.jpg");
+
 
 }
+
+<h1>Edicion de datos de @titulo</h1>
+<form method="post" class="mt-3" enctype="multipart/form-data">
+
+	<input type="hidden" asp-for="equipo.Id" />
+    <input type="hidden" asp-for="equipo.foto" id="lafoto" />
+
+
+    <div class="form-group row">
+        <label asp-for="equipo.nomEquipo" class="col-sm-2 col-form-label">Nombre del Equipo</label>
+        <div class="col-sm-10">
+            <input asp-for="equipo.nomEquipo" class="form-control" placeholder="Nombre" />
+            <span asp-validation-for="equipo.nomEquipo" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="equipo.ciudad" class="col-sm-2 col-form-label">Ciudad del Equipo</label>
+        <div class="col-sm-10">
+            <input asp-for="equipo.ciudad" class="form-control" placeholder="Ciudad" />
+            <span asp-validation-for="equipo.ciudad" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+		<label asp-for="equipo.nomEstadio" class="col-sm-2 col-form-label">Nombre del estadio</label>
+		<div class="col-sm-10">
+            <input asp-for="equipo.nomEstadio" class="form-control" placeholder="Estadio" />
+            <span asp-validation-for="equipo.nomEstadio" class="text-danger"></span>
+            </div>
+	</div>
+
+    <div class="form-group row">
+        <label asp-for="equipo.anoFundacion" class="col-sm-2 col-form-label">Año fundacion</label>
+        <div class="col-sm-10">
+            <input asp-for="equipo.anoFundacion" class="form-control" type="number" placeholder="Año fundacion" />
+            <span asp-validation-for="equipo.anoFundacion" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="equipo.categoria" class="col-sm-2 col-form-label">Categoría:</label>
+        <div class="col-sm-10">
+            <select asp-for="equipo.categoria" class="form-select mb-3" asp-items="Html.GetEnumSelectList<Categoria>()">
+                <option value="Selecciona uno">Selecciona uno</option>
+            </select>
+            <span asp-validation-for="equipo.categoria" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label asp-for="Photo" class="col-sm-2 col-form-label"></label>
+        <div class="col-sm-10">
+            <input asp-for="Photo" class="custom-file-input"  type="file"         value="@Model.equipo.foto" onchange="lafoto.value = this.value.substring(this.value.lastIndexOf('\\')+1)" />
+            <label class="custom-file-label">Click aquí para cambiar foto</label>
+        </div>
+    </div>
+    <div class="form-group row col-sm-4 offset-4">
+        <img class="imageThumbail" src="@photo" asp-append-version="true" />
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Save</button>
+            <a asp-page="/Alumnos/Index" class="btn btn-promary">Cancel</a>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</form>
 
    
