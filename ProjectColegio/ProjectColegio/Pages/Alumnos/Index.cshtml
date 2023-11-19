@@ -1,0 +1,24 @@
+﻿@page
+@model ProjectColegio.Pages.Alumnos.IndexModel
+@{
+}
+
+<h3>Equipos de futbol</h3>
+<br />
+<h3>Total: @Model.Alumnos.Count()</h3>
+@foreach    (var alumnos in Model.Alumnos)
+{
+    var photo = "~/images/" + (alumnos.Foto ?? "noimage.jpg");
+	<div class="card m-3 border" style="min-width: 18rem; max-width:30%">
+            <div class="card-header text-center">
+                <h3>@alumnos.Nombre</h3>
+            </div>
+            
+            <img class="card-img-top mx-auto " asp-append-version="true" src="@photo">
+            <div class="card-footer text-center">
+                <a asp-page="/Equipos/Details" asp-route-ID="@alumnos.Id" class="btn btn-primary m1">View</a>
+                <a asp-page="/Equipos/Edit" asp-route-ID="@alumnos.Id" class="btn btn-primary m1">Edit</a>
+                <a asp-page="/Equipos/Delete" asp-route-ID="@alumnos.Id" class="btn btn-danger m-1">Delete</a>
+            </div>
+    </div>
+}

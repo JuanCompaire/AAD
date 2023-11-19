@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProjectColegio", "ProjectColegio\ProjectColegio.csproj", "{0DEB0E08-8E51-47EF-AD69-9CCEC75D0DE3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelos", "Modelos\Modelos.csproj", "{89A6EA1D-E643-4C2E-9F35-A50860A2F6C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services", "Services\Services.csproj", "{E27C1F95-9FDD-4AED-A431-46BFFFCDFCDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DEB0E08-8E51-47EF-AD69-9CCEC75D0DE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DEB0E08-8E51-47EF-AD69-9CCEC75D0DE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DEB0E08-8E51-47EF-AD69-9CCEC75D0DE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DEB0E08-8E51-47EF-AD69-9CCEC75D0DE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89A6EA1D-E643-4C2E-9F35-A50860A2F6C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89A6EA1D-E643-4C2E-9F35-A50860A2F6C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89A6EA1D-E643-4C2E-9F35-A50860A2F6C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89A6EA1D-E643-4C2E-9F35-A50860A2F6C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E27C1F95-9FDD-4AED-A431-46BFFFCDFCDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E27C1F95-9FDD-4AED-A431-46BFFFCDFCDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E27C1F95-9FDD-4AED-A431-46BFFFCDFCDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E27C1F95-9FDD-4AED-A431-46BFFFCDFCDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7198CF31-4A3A-428C-9207-6350FDFB335A}
+	EndGlobalSection
+EndGlobal
