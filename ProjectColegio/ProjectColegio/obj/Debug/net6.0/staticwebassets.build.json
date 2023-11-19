@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yFdm9O47WyZUd+PdRHRL716+fiYRjthE6Kx1SQ//coI=",
+  "Hash": "KBFNfwoBtP9KgEpBITJru9FB65xYN/jClcKHYcsx4gs=",
   "Source": "ProjectColegio",
   "BasePath": "_content/ProjectColegio",
   "Mode": "Default",
@@ -117,6 +117,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\Isma1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProjectColegio\\ProjectColegio\\wwwroot\\images\\noimage.jpg",
+      "SourceId": "ProjectColegio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProjectColegio\\ProjectColegio\\wwwroot\\",
+      "BasePath": "_content/ProjectColegio",
+      "RelativePath": "images/noimage.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\noimage.jpg"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProjectColegio\\ProjectColegio\\wwwroot\\js\\site.js",

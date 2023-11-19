@@ -23,5 +23,12 @@ namespace Services
             return context.Alumno.FromSqlRaw<Alumno>("SELECT * FROM Alumnos").ToList();
 
         }
+
+        public Alumno GetById(int id)
+        {
+			SqlParameter param = new SqlParameter("@id", id);
+            return context.Alumno.Find(id);
+			
+		}
     }
 }

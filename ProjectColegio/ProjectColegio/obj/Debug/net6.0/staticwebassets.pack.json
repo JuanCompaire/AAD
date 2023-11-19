@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\images\\Isma1.jpg"
     },
     {
+      "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProjectColegio\\ProjectColegio\\wwwroot\\images\\noimage.jpg",
+      "PackagePath": "staticwebassets\\images\\noimage.jpg"
+    },
+    {
       "Id": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProjectColegio\\ProjectColegio\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
