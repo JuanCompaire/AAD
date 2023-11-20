@@ -26,9 +26,16 @@ namespace Services
 
         public Alumno GetById(int id)
         {
-			SqlParameter param = new SqlParameter("@id", id);
-            return context.Alumno.Find(id);
+		
+            return context.Alumno.FromSqlRaw<Alumno>("SELECT * FROM Alumnos WHERE Id = @id", new SqlParameter("@id", id)).FirstOrDefault();
 			
 		}
+
+        public void Update(Alumno alumnoupdate)
+        {
+            var equipo = context.Alumno.Attach(alumnoupdate);
+            equipo.State = EntityState.Modified;
+            context.SaveChanges();
+        }
     }
 }

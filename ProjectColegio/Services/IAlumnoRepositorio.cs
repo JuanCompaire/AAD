@@ -9,5 +9,7 @@ namespace Services
 
         Alumno GetById(int id);
 
+        void Update(Alumno alumnoupdate);
+
     }
 }
