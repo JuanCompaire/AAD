@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ln90PpPrNwidA62aerRfgpz3bB8Tba1NylWzqlM4dtk=",
+  "Hash": "TIb3Ux+hV56T6BOnLE8l8BjkQk7k+su0+wBmHrKrH90=",
   "Source": "ProyectoFutbol",
   "BasePath": "_content/ProyectoFutbol",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\noimage.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\images\\panzon.PNG",
+      "SourceId": "ProyectoFutbol",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\",
+      "BasePath": "_content/ProyectoFutbol",
+      "RelativePath": "images/panzon.PNG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\panzon.PNG"
     },
     {
       "Identity": "C:\\Users\\Usuario\\Desktop\\2ºDAMN\\AAD\\ProyectoFutbol\\ProyectoFutbol\\wwwroot\\images\\zaragoza.jpg",

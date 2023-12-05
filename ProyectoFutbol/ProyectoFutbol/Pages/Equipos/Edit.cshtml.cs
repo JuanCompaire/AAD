@@ -56,7 +56,10 @@ namespace ProyectoFutbol.Pages.Equipos
                 }
 
                 if (equipo.Id != 0)
+                {
                     equipoRepositorio.Update(equipo);
+
+                }
                 else
                     equipoRepositorio.Add(equipo);
                 return RedirectToPage("Index");

@@ -14,5 +14,8 @@ namespace Services
 
 		Equipo Delete(int id);
 
+		IEnumerable<Equipo> BuscarEquipos(string elementoABuscar);
+
+
 	}
 }

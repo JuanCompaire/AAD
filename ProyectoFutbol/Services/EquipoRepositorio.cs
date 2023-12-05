@@ -15,6 +15,8 @@ namespace Services
 	public class EquipoRepositorio : IEquiposRepositorio
 	{
 
+
+
 		private readonly FutbolDbContext context;
 
 		public EquipoRepositorio(FutbolDbContext context)
@@ -65,6 +67,24 @@ namespace Services
             return equipoDelete;
         }   
 
+		public Equipo GetEquipoByNombre(string nombreABuscar)
+		{
+            SqlParameter parameter = new SqlParameter("@nombreABuscar", nombreABuscar);
+
+            return context.Equipo.FromSqlRaw<Equipo>("SELECT * FROM Equipo WHERE nomEquipo = @nombreABuscar", parameter).FirstOrDefault();
+		}
+
+		public IEnumerable<Equipo> BuscarEquipos(string elementoABuscar)
+		{
+            if(string.IsNullOrEmpty(elementoABuscar))
+			{
+				return context.Equipo;
+            }
+			return context.Equipo.Where(e => e.nomEquipo.Contains(elementoABuscar) || e.ciudad.Contains(elementoABuscar));
+            
+        }
+
+		
 
 	}	
 	

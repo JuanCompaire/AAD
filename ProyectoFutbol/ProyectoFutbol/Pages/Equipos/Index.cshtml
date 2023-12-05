@@ -5,8 +5,15 @@
 <h3>Equipos de futbol</h3>
 <br />
 <h3>Total: @Model.equipos.Count()</h3>
+<form method="get">
+    <div class="form-group">
+        <input asp-for="elementoABuscar" class="control-label"></input>
+        <input type="submit" value="Busca!" class="btn btn-primary" />
+    </div>
+</form>
 @foreach    (var equipo in Model.equipos)
 {
+    
     var photo = "~/images/" + (equipo.foto ?? "noimage.jpg");
 	<div class="card m-3 border" style="min-width: 18rem; max-width:30%">
             <div class="card-header text-center">
