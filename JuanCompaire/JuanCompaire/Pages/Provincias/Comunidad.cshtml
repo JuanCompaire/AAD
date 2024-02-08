@@ -1,0 +1,33 @@
+﻿@page
+@using Modelos;
+@model JuanCompaire.Pages.Provincias.ComunidadModel
+@{
+}
+    <h1>Comunidades</h1>
+    <form method="get">
+        <div class="form-group">
+        <label asp-for="comunidadABuscar" class="control-label">Filtrador de provincias por Comunidad</label>
+        <select asp-for="comunidadABuscar" class="form-control">
+                @foreach (var value in Enum.GetValues(typeof(Comunidad)))
+                {
+                    <option value="@((int)value)">@value</option>
+                }
+            </select>
+        </div>
+        <input type="submit" value="Filtrar" class="btn btn-primary" />
+    </form>
+    @foreach (var provincia in Model.Provincias)
+    {
+    <div class="card m-3 border" style="min-width: 18rem; max-width:30%">
+        <div class="card-header text-center">
+            <h3>ID : @provincia.codProvincia</h3>
+            <h3>Nombre : @provincia.nomProvincia</h3>
+            <h3>Superficie: @provincia.superficie km</h3>
+            <h3>Habitantes: @provincia.numHabitantes</h3>
+            <h3>Comunidad: @provincia.codComunidad</h3>
+        </div>
+
+
+    </div>
+
+}

@@ -1,0 +1,24 @@
+﻿@page
+@model JuanCompaire.Pages.Provincias.IndexModel
+@{
+}
+
+<h3>Provincias</h3>
+<br />
+<h3>Total : @Model.provincias.Count()</h3>
+
+@foreach ( var provincia in Model.provincias)
+{
+		    <div class="card m-3 border" style="min-width: 18rem; max-width:30%">
+                <div class="card-header text-center">
+                    <h3>ID : @provincia.codProvincia</h3>
+                    <h3>Nombre : @provincia.nomProvincia</h3>
+                    <h3>Superficie: @provincia.superficie km</h3>
+                    <h3>Habitantes: @provincia.numHabitantes</h3>
+                    <h3>Comunidad: @provincia.codComunidad</h3>
+                </div>
+            
+            
+            </div>
+	
+}
