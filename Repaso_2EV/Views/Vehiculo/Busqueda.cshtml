@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Repaso_2EV.Models.VehiculoModelo>
+
+@{
+    ViewData["Title"] = "Busqueda";
+}
+
+<h1>Busqueda</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form method="get" id="searchForm">
+    <div class="form-group">
+        <label for="matriculaVehiculo">Matricula:</label>
+        <input type="search" id="matriculaVehiculo" name="matriculaVehiculo" class="form-control" placeholder="Buscar por matricula" value="@ViewBag.buscar" />
+        <input type="submit" value="Buscar" class="btn btn-primary" />
+    </div>
+</form>
+
+<script>
+    // Manejar el evento de tecla presionada en el campo de búsqueda
+    document.getElementById('matriculaVehiculo').addEventListener('keypress', function (e) {
+        if (e.key === 'Enter') {
+            // Evitar la recarga de la página al enviar el formulario
+            e.preventDefault();
+            // Enviar el formulario al presionar Enter
+            document.getElementById('searchForm').submit();
+        }
+    });
+</script>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Serie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Serie.Marca)
+            </th>
+            <th>Opciones: Edit | Details | Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Matricula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Color)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Serie.Nom_Serie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Serie.Marca.Nom_Marca)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

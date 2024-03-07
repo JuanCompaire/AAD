@@ -1,0 +1,64 @@
+﻿@model IEnumerable<Repaso_2EV.Models.VehiculoModelo>
+
+@{
+	ViewBag.Title = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+	<a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+	<thead>
+		<tr>
+			<th>
+				@Html.DisplayName("Matrícula")
+			</th>
+<th>
+				@Html.DisplayName("Color")
+</th>
+<th>
+				@Html.DisplayName("Serie")
+</th>
+<th>
+				@Html.DisplayName("Marca")
+</th>
+<th>
+				@Html.DisplayName("Extras")
+</th>
+<th></th>
+		</tr>
+	</thead>
+<tbody>
+@foreach (var item in Model)
+		{
+			<tr>
+				<td>
+					@Html.DisplayFor(modelItem => item.Matricula)
+				</td>
+<td>
+					@Html.DisplayFor(modelItem => item.Color)
+</td>
+<td>
+					@Html.DisplayFor(modelItem => item.Serie.Nom_Serie)
+
+</td>
+<td>
+					@Html.DisplayFor(modelItem => item.Serie.Marca.Nom_Marca)
+</td>
+				<td>
+					@foreach (var extra in item.VehiculoExtras)
+					{
+						<p>@extra.extra.NomExtra</p>
+					}
+				<td>
+<td>
+					<a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+					<a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+					<a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+				</td>
+			</tr>
+		}
+	</tbody>
+</table>

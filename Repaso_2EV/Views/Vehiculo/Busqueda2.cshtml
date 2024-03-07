@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Repaso_2EV.Models.VehiculoModelo>
+
+@{
+    ViewData["Title"] = "Busqueda2";
+}
+
+<h1>Busqueda2</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+
+<form method="get" id="searchForm">
+    <div class="form-group">
+        <label for="matriculaVehiculo">Buscador de Vehículos</label>
+        <select id="matriculaVehiculo" name="matriculaVehiculo" class="form-control" asp-items="ViewBag.listaMatriculas" >
+            @* asp-for="" *@
+			<option value="">-- Selecciona una Matricula --</option>
+        </select>
+        <input type="submit" value="Buscar!" class="btn btn-primary" />
+    </div>
+</form>
+<script>
+    // Manejar el evento de cambio en el select
+    document.getElementById('matriculaVehiculo').addEventListener('change', function () {
+        // Enviar el formulario al hacer la selección
+        document.getElementById('searchForm').submit();
+    });
+</script>
+
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Matricula)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Color)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Serie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Serie.Marca)
+            </th>
+            <th>Opciones: Edit | Details | Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Matricula)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Color)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Serie.Nom_Serie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Serie.Marca.Nom_Marca)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div class="mt-5 mb-5">
+    <a asp-action="Index">Back to List</a>
+</div>
