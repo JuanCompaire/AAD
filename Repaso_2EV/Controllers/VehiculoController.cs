@@ -26,9 +26,10 @@ namespace Repaso_2EV.Controllers
         // GET: VehiculoController
         public ActionResult Index()
         {
-            ViewBag.LasMarcas = Contexto.Marcas.ToList();
-            var lista = Contexto.Vehiculos.Include(v => v.Serie);
-            return View(lista);
+            List<VehiculoModelo> listav = Contexto.Vehiculos.Include(v => v.Serie.Marca).Include(v => v.VehiculoExtras).ToList();
+            ViewBag.marcas = Contexto.Marcas.ToList();
+            ViewBag.ex = Contexto.Extras.ToList();
+            return View(listav);
         }
 
 		public ActionResult Seleccion(int marcaId = 1, int serieId = 0)
@@ -111,10 +112,15 @@ namespace Repaso_2EV.Controllers
 
             foreach (var xtraID in vehiculo.ExtrasSeleccionados)
             {
-                var obj = new VehiculoExtraModelo { vehiculoID = vehiculo.ID, extraID = xtraID };
-                Contexto.VehiculosExtras.Add(obj);
-            }
-            Contexto.SaveChanges();
+                var obj = new VehiculoExtraModelo() 
+                {
+                    vehiculoID = vehiculo.ID,
+                    extraID = xtraID
+                };
+				Contexto.VehiculosExtras.Add(obj);
+
+			}
+			Contexto.SaveChanges();
 
             try
             {

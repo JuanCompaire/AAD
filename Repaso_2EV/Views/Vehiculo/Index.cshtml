@@ -48,11 +48,17 @@
 					@Html.DisplayFor(modelItem => item.Serie.Marca.Nom_Marca)
 </td>
 				<td>
-					@foreach (var extra in item.VehiculoExtras)
-					{
-						<p>@extra.extra.NomExtra</p>
-					}
-				<td>
+					<table>
+						@foreach (var extra in item.VehiculoExtras)
+						{<tr>
+							<td>
+							@Html.DisplayFor(modelItem => extra.extra.NomExtra)
+							</td>
+						</tr>
+						}
+					</table>
+					
+				</td>
 <td>
 					<a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
 					<a asp-action="Details" asp-route-id="@item.ID">Details</a> |
